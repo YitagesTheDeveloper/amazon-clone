@@ -4,7 +4,7 @@ import Layout from '../../components/Layout/Layout'
 import { DataContext } from '../../components/DataProvider/DataProvider'
 import { db } from '../../Utility/firebase'
 import { useState } from 'react'
-import ProductCard from '../../components/product/ProductCard'
+import ProductCard from '../../components/Product/ProductCard'
 
 const Orders = () => {
   const [{user},dispach] = useContext(DataContext)
